@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import useGlobalReducer from "../hooks/useGlobalReducer";
-import { postContact, changeContact} from "../api/contactApi";
+import { postContact, changeContact } from "../api/contactApi";
 import { useNavigate } from "react-router-dom";
 
 export const FormContact = () => {
