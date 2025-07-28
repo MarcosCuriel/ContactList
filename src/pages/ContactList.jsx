@@ -17,7 +17,7 @@ export const ContactList = () => {
           <Contact key={contact.id} contact={contact} />
         ))
       ) : (
-        <p className="no-contacts-text">No contacts aviable</p>
+        <p className="no-contacts-text">No contacts available</p>
       )}
     </>
   );
